@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/static/bootstrap.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adicionar Item</title>
+  </head>
+  <body class="container mt-4">
+    <h1>Adicionar Item</h1>
+    <form method="post">
+      <div class="mb-3">
+        <label class="form-label">Nomenclatura</label>
+        <input type="text" name="nome" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">WinVer</label>
+        <input type="text" name="quantidade" class="form-control" required />
+      </div>
+      <button type="submit" class="btn btn-primary">Salvar</button>
+      <a href="/" class="btn btn-secondary">Cancelar</a>
+    </form>
+  </body>
+</html>
